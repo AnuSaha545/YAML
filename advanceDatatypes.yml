@@ -57,7 +57,7 @@ names: !!set
   ?Anu # this will not be added as it is a duplicate value
 
 #dictionary: !!omap
-people: !!omap
+people: !!map
   -Anu:
     name: Anu Saha
     age: 21
