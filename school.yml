@@ -1,0 +1,8 @@
+---
+School:
+  -name: NEPS
+  principal: Someone
+  Students:
+    -name: Anu Saha
+    -roll_no: 1
+    -marks: 85

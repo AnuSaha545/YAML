@@ -1,0 +1,19 @@
+"apple" : "I am A red Fruit"
+1: "This is my roll number"
+---  #this is a separator to know that the next line is a new document
+#lists
+-apple
+-mango
+-kiwi
+-Apple #YAML is case sensitive
+---
+cities:
+  -new delhi
+  -Bangalore
+  -Mumbai
+  -Chennai
+---
+cities: ["new delhi", "Bangalore", "Mumbai", "Chennai"]
+---
+{Anu: "I am a Student",age: 21}
+...

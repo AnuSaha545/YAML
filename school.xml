@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<School name="NEPS" principal="Someone">
+    <Students>
+        <Student>
+            <name>ANU SAHA</name>
+            <roll_no>1</roll_no>
+            <marks>95</marks>
+        </Student>
+    </Students>
+
+
+</School>

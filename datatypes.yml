@@ -1,0 +1,46 @@
+# String variables
+myself: Anu Saha
+fruit: "apple"
+job: "Student"
+
+bio: |
+  hey my name is Anu Saha and I am a student. 
+  I am learning YAML and it's really interesting.
+  I hope to become a good programmer in the future.
+
+# write a single line in multiple lines
+message: >
+  this will
+  all be
+  in one single line
+
+# same as
+message: !!str this will all be in one single line
+
+number: 5473
+marks: 95.89
+booleanValue: !!bool No # n, N, false, False, FALSE
+# same for true -> yes, y, Y
+
+#specify the type
+zero: !!int 0
+positive: !!int 45
+negative: !!int -45
+binary: !!int 0b11001
+octalNum: !!int 06574
+hexa: !!int 0x45
+commaCalue: !!int +540_000  #540,000
+exponential: 6.023E56
+
+# floating point numbers
+marks: !!float 56.89
+infinite: !!float .inf
+not a num: .nan
+
+# null
+surname: !!null Null # or null NULL ~
+~: this is also null key
+
+# dates and time
+date: !!timestamp 2024-06-15
+india time: !!timestamp 2024-06-15T02:59:43.10

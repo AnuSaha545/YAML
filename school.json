@@ -1,0 +1,15 @@
+{
+    "School": [
+        {
+            "name": "NEPS",
+        "principal": "Someone",
+        "Students": [
+            {
+                "name": "Anu",
+                "roll_no":1,
+                "marks": 70
+            }
+        ]
+        }
+    ]
+}
